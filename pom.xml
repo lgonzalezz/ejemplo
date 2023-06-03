@@ -9,10 +9,10 @@
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>PR-proyect</groupId>
-	<artifactId>PR-proyect</artifactId>
+	<groupId>com.termometer</groupId>
+	<artifactId>termometer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>proyect-testJen</name>
+	<name>example</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
