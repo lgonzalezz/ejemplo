@@ -11,7 +11,7 @@ pipeline {
         stage("SonarQube Analysis") {
             steps {
                 withSonarQubeEnv('SonarQubeServer') {
-                    sh "mvn sonar:sonar -Dsonar.projectKey=PR-proyect"
+                    sh "mvn sonar:sonar"
                 }
              }
         }
