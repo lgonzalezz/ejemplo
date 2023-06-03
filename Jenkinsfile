@@ -8,11 +8,6 @@ pipeline {
         maven 'MavenTool'
     }
     stages {
-        stage("Ramas PR") {
-            steps {
-                sh "./ramas.sh build"
-            }
-        }
         stage("SonarQube Analysis") {
             steps {
                 withSonarQubeEnv('SonarQubeServer') {
